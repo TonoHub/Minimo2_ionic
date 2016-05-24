@@ -9,7 +9,7 @@ app.controller('StudentController', ['$scope','$http', function($scope, $http) {
     $scope.newStudent = {};
     $scope.students = {};
     $scope.selected = false;
-	var dir = "10.193.59.143";
+	var dir = "localhost";
 
     // Obtenemos todos los datos de la base de datos
     $http.get('http://'+ dir +':3000/api/student').success(function (data) {

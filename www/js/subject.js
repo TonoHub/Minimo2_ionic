@@ -9,7 +9,7 @@ app.controller('SubjectController', ['$scope','$http', function($scope, $http) {
     $scope.newSubject = {};
     $scope.subjects = {};
     $scope.selected = false;
-    var dir = "10.193.59.143";
+    var dir = "localhost";
 
 $scope.cleanall = function(){
     $scope.newSubject = {};
